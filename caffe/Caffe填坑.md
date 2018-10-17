@@ -260,6 +260,12 @@ NVCCFLAGS += -D_FORCE_INLINES -ccbin=$(CXX) -Xcompiler -fPIC $(COMMON_FLAGS)
 make all -j8
 ```
 
+遇到找不到 cuda的问题，解决办法如下：
+
+```
+sudo ldconfig /usr/local/cuda/lib64
+```
+
 编译成功后可运行测试：
 
 ```
