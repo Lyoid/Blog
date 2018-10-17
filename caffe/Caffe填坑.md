@@ -113,7 +113,7 @@ g++ test.cpp -lboost_system -lboost_thread -lboost_filesystem -lpthread -o test
 
 ​	登录官网<https://developer.nvidia.com/rdp/cudnn-download>，下载对应cnDNN包，这里选择 v5.1的安装包。
 
-![20170519172405821](20170519172405821.png)
+![20170519172405821](./picture/20170519172405821.png)
 
 下载完成后解压，得到一个 cudn 文件夹，该文件夹下include 和 lib64 两个文件夹，命令行进入 cudn/include 路径下，然后进行以下操作：
 
@@ -148,7 +148,7 @@ Cuda compilation tools, release 8.0, V8.0.61
 
 修改文件/opencv-3.1.0/modules/cudalegacy/src/graphcuts.cpp
 
-![20170519143804509](20170519143804509.jpeg)
+![20170519143804509](./picture/20170519143804509.jpeg)
 
 然后编译：
 
